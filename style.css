@@ -1,0 +1,15 @@
+body {
+	text-align: center !important;
+	background-color: #1f1f1f !important;
+	color: #fff !important;
+}
+
+#mainroot {
+	list-style: none;
+	text-align: left !important;
+}
+
+.mylist {
+	margin-left: 10px;
+	color: lawngreen;
+}
