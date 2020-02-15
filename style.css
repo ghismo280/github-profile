@@ -13,3 +13,12 @@ body {
 	margin-left: 10px;
 	color: lawngreen;
 }
+
+#user-image {
+	max-width: 45vw;
+}
+
+.my-keyword {
+	color: #007bff;
+    text-transform: uppercase;
+}
