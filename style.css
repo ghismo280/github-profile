@@ -5,8 +5,15 @@ body {
 }
 
 #mainroot {
+	text-align: left !important;
+}
+#mainlist {
 	list-style: none;
 	text-align: left !important;
+}
+
+#mainlist li {
+	display: flex;
 }
 
 .mylist {
@@ -15,10 +22,13 @@ body {
 }
 
 #user-image {
-	max-width: 45vw;
+	height: 13em;
 }
 
 .my-keyword {
 	color: #007bff;
     text-transform: uppercase;
+	text-align: center;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
 }
