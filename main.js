@@ -1,5 +1,5 @@
 const baseUrl = "https://api.github.com/users/";
-const fakeUrl = "ghismo.json"
+const fakeUrl = "assets/ghismo.json"
 const nameIdRoot = "mainroot";
 
 const isDEVELOP = false;
@@ -47,7 +47,7 @@ function callApi(yourUrl){
 
 const replaceImage = function (image_url) {
 	if (image_url === undefined || image_url === null) {
-		image_url = "errorGitHub.png";
+		image_url = "assets/errorGitHub.png";
 	}
 	document.getElementById("user-image").src = image_url;
 }
